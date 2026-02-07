@@ -210,9 +210,16 @@ __marimo__/
 # MacOS
 .DS_Store
 
+# JetBrains / Intellij
+.idea/
+*.iml
 
 # model weights (too large for GitHub)
 util/yolov3/config/yolov3.weights
 object_track/weights/yolov3.pt
 *.weights
 *.pt
+
+#ignore data
+.data/
+.weights/
