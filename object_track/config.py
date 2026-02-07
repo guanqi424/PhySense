@@ -1,0 +1,13 @@
+# source = "videos/Walking Next to People.MP4"
+# frame_size = (704, 1280)
+source = 0
+frame_size = (480, 640)
+# frame_size = (512, 960)
+img_size = (416, 416)  # (320, 192) or (416, 256) or (608, 352) for (height, width)
+conf_thres = .3
+nms_thres = .5
+iou_thres = .3
+max_age = 500
+maturity_period = 5
+cfg = "cfg/yolov3.cfg"
+weights = "weights/yolov3.pt"

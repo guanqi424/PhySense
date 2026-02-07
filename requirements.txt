@@ -1,0 +1,11 @@
+tqdm==4.66.5
+matplotlib==3.7.5
+pandas==2.0.3
+scikit-learn==1.3.2
+scikit-image==0.21.0
+einops==0.8.0
+xgboost==2.1.1
+seaborn==0.13.2
+pygad==3.3.1
+opencv-python==4.10.0.84
+plotly==5.18.0
