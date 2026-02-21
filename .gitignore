@@ -221,5 +221,6 @@ object_track/weights/yolov3.pt
 *.pt
 
 #ignore data
-.data/
-.weights/
+data/
+weights/
+physense_carla/
